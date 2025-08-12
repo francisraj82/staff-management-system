@@ -110,17 +110,13 @@
                                                 </span>
                                             </p>
                                         </div>
-                                        <div class="col-md-4 mb-3">
+                                        <div class="col-md-6 mb-3">
                                             <p class="mb-1 text-muted">Salary</p>
                                             <p class="fw-medium">RM{{ number_format($staff->salary, 2) }}</p>
                                         </div>
-                                        <div class="col-md-4 mb-3">
+                                        <div class="col-md-6 mb-3">
                                             <p class="mb-1 text-muted">Hire Date</p>
                                             <p class="fw-medium">{{ $staff->hire_date->format('M d, Y') }}</p>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <p class="mb-1 text-muted">Years with Company</p>
-                                            <p class="fw-medium">{{ $staff->hire_date->diffInYears(now()) }}</p>
                                         </div>
                                     </div>
                                 </div>
